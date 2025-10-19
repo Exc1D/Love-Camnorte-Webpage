@@ -154,7 +154,6 @@ body
     cursor: pointer;
 }
 
-/* Add media query for responsive design */
 @media (max-width: 768px) {
     #catalog-section {
         flex-direction: column;
@@ -213,17 +212,17 @@ body
 }
 
 .food-section {
-    background-color: rgba(255, 0, 0, 0.8);  /* semi-transparent red */
+    background-color: rgba(255, 0, 0, 0.8); 
 }
 
 .beach-section {
-    background-color: rgba(0, 128, 0, 0.8);  /* semi-transparent green */
+    background-color: rgba(0, 128, 0, 0.8);  
 }
 
 
 #food-img {
     margin-top: 20%;
-    width: 80%;  /* takes full width of parent */
+    width: 80%; 
     min-height: 50%;
     background-image: url("images/food1.webp");
     background-size: 100%;
@@ -235,7 +234,7 @@ body
 
 #beach-img {
     margin-top: 20%;
-    width: 80%;  /* takes full width of parent */
+    width: 80%;
     min-height: 50%;
     background-image: url("images/beach-camp2.webp");
     background-size: 100%;
@@ -258,3 +257,4 @@ body
     margin: 10% auto;
     font-family: "Meow Script";
 }
+
